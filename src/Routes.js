@@ -7,7 +7,7 @@ import MainComponent from './Components/MainComponent.js';
 
 const routes = [
 {
-    path: "/",
+    path: "/klm-menu/",
     exact: true,
     main: () => <MainComponent/>
 },
