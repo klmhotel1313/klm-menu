@@ -1,0 +1,48 @@
+.h5{
+  font-size:14px !important;
+}
+
+.categoryContainer{
+  display:inline-flex;
+  width:100%
+}
+.div1{
+  width:80%
+}
+.div2{
+  width:20%;
+  padding:1.25rem;
+  padding-left:0rem;
+
+}
+
+.line{
+  width:80%;
+  background-color: lightgray;
+  padding: 0.5px;
+  margin-left: 10%;
+  margin-right:10%;
+}
+
+.divButton{
+  border-style: solid;
+  border-color: #d0ccca;
+  padding: 1px;
+  display:flex;
+  height: fit-content;
+  width:fit-content;
+  color: #67b710f7;
+}
+
+.cardHeader{
+  background-color: burlywood !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.price{
+  color: grey
+}
+.type{
+  width:21px;
+  height:21px;
+}

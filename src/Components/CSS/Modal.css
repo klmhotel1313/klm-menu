@@ -1,0 +1,40 @@
+.modal-Main{
+  position:fixed;
+  z-index: 3;
+  left:0;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  bottom:50px;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s;
+  margin: auto;
+  max-height: 150px;
+}
+.modal-content {
+  background-color: #fefefe;
+  padding: 20px;
+  border: 1px solid #888;
+  width: fit-content !important;
+  radius:20px;
+}
+.backdrop{
+  width: 100%;
+  overflow-y: hidden;
+  height:100%;
+  position: fixed;
+  z-index:2;
+  top:0;
+  left:0;
+  background-color: rgba(0,0,0,0.5);
+}
+@-webkit-keyframes slideIn {
+  from {bottom: -200px; opacity: 0}
+  to {bottom: 50px; opacity: 1}
+}
+@keyframes slideIn {
+  from {bottom: -200px; opacity: 0}
+  to {bottom: 50px; opacity: 1}
+}

@@ -1,0 +1,114 @@
+{
+    "Shorba and Soups": [
+        {
+            "Dish Name": "TAMATAR DHANIYA SHORBA",
+            "Type": "VEG",
+            "Price": 100,
+            "Description": null
+        },
+        {
+            "Dish Name": "DAL PALAK KA SHORBA",
+            "Type": "VEG",
+            "Price": 100,
+            "Description": null
+        },
+        {
+            "Dish Name": "LEMON CORIANDER",
+            "Type": "VEG",
+            "Price": "100-130",
+            "Description": null
+        },
+        {
+            "Dish Name": "SWEET CORN",
+            "Type": "VEG",
+            "Price": "100-130",
+            "Description": null
+        },
+        {
+            "Dish Name": "HOT AND SOUR",
+            "Type": "VEG",
+            "Price": "100-130",
+            "Description": null
+        },
+        {
+            "Dish Name": "TALUMEIN",
+            "Type": "VEG",
+            "Price": "100-130",
+            "Description": null
+        },
+        {
+            "Dish Name": "MANCHAOW",
+            "Type": "VEG",
+            "Price": "100-130",
+            "Description": null
+        },
+        {
+            "Dish Name": "MURG ADRAKI SHORBA",
+            "Type": "VEG",
+            "Price": 130,
+            "Description": null
+        }
+    ],
+    "Salad": [
+        {
+            "Dish Name": "GARDEN FRESH SALAD",
+            "Type": "VEG",
+            "Price": 110,
+            "Description": null
+        },
+        {
+            "Dish Name": "ALOO CHANA CHAT",
+            "Type": "VEG",
+            "Price": 130,
+            "Description": null
+        },
+        {
+            "Dish Name": "CHATPATA PANEER TIKKA SALAD",
+            "Type": "VEG",
+            "Price": 140,
+            "Description": null
+        },
+        {
+            "Dish Name": "KIM CHI SALAD",
+            "Type": "VEG",
+            "Price": 140,
+            "Description": null
+        },
+        {
+            "Dish Name": "RUSSIAN SALAD",
+            "Type": "VEG",
+            "Price": 140,
+            "Description": null
+        },
+        {
+            "Dish Name": "PEANUT SALAD",
+            "Type": "VEG",
+            "Price": 130,
+            "Description": null
+        },
+        {
+            "Dish Name": "MASALA PAPAD",
+            "Type": "VEG",
+            "Price": 75,
+            "Description": null
+        },
+        {
+            "Dish Name": "CEASAR SALAD",
+            "Type": "VEG",
+            "Price": 140,
+            "Description": null
+        },
+        {
+            "Dish Name": "FRUIT SALAD",
+            "Type": "VEG",
+            "Price": 100,
+            "Description": null
+        },
+        {
+            "Dish Name": "MURG TIKKA SALAD",
+            "Type": "VEG",
+            "Price": 220,
+            "Description": null
+        }
+    ]
+}

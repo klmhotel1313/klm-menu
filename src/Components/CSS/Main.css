@@ -1,0 +1,31 @@
+.float{
+	position:fixed;
+	width:80px;
+	height:30px;
+	bottom:40px;
+	color:#FFF;
+	border-radius:100px;
+  background-color: #007bff;
+  border-color: #007bff;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+  outline:none;
+	transition: all 0.3s ease;
+
+}
+.floatdiv{
+  position:fixed;
+  height:30px;
+	bottom:40px;
+  width:100%;
+  align-items: center;
+  display: flex;
+  margin: auto;
+  max-width: 756px;
+  justify-content: center;
+
+}
+button:focus{
+	outline: none !important;
+
+ }
