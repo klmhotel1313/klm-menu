@@ -1,11 +1,11 @@
 import React from 'react';
 import {Card} from 'react-bootstrap';
 import './CSS/Category.css';
-import veg from '../icons/veg.png';
-import nonVeg from '../icons/non-veg.png';
+import Items from './Items.jsx';
 
 function CategoryCardComponent(props) {
   const ref=React.useRef(null);
+  let [counter,setCounter]=React.useState(JSON.parse(window.sessionStorage.getItem("counter")!==null?window.sessionStorage.getItem("counter"):"{}"))
   React.useEffect(()=>{
 
     if(props.cat!==""&&ref.current){
@@ -15,31 +15,59 @@ function CategoryCardComponent(props) {
       ref.current.scrollIntoView();
 
     }
-    },[props.cat]);
+    console.log("rendered");
+  },[props.cat]);
+
+
+  let increaseCounter=(item,index)=>{
+    let count=0;
+    if(Object.keys(counter).length!==0&&counter[item["Dish Name"]]!==undefined){
+      count=counter[item["Dish Name"]]
+      count+=1
+    }
+    else{
+      count=1;
+    }
+    setCounter({
+      ...counter,
+      [item["Dish Name"]]:count
+    })
+    window.sessionStorage.setItem("counter",JSON.stringify({
+      ...counter,
+      [item["Dish Name"]]:count
+    }))
+  }
+  let decreaseCounter=(item,index)=>{
+    let count=0
+    if(counter[item["Dish Name"]]>0){
+      count=counter[item["Dish Name"]]
+      count-=1
+      setCounter({
+        ...counter,
+        [item["Dish Name"]]:count
+      })
+      window.sessionStorage.setItem("counter",JSON.stringify({
+        ...counter,
+        [item["Dish Name"]]:count
+      }))
+    }
+    if(count===0){
+      setCounter({
+        ...counter,
+        [item["Dish Name"]]:undefined
+      })
+      window.sessionStorage.setItem("counter",JSON.stringify({
+        ...counter,
+        [item["Dish Name"]]:undefined}))
+      }
+
+    }
+
+
+
     let items=props.data[props.category].map((item,index)=>{
       return(
-        <div style={{width:'100%'}} key={index}>
-          <div className="categoryContainer">
-            <div className="div1">
-              <Card.Body >
-                <Card.Title>
-                  {item["Type"]=="VEG"?<img className="type" src={veg}/>:<img src={nonVeg}/>}
-                  {item["Dish Name"]}
-                </Card.Title>
-                <Card.Text className="price">
-
-                  {item["Description"]}
-                  {"₹"+item["Price"]}
-                </Card.Text>
-              </Card.Body>
-            </div>
-            <div className="div2">
-              <div className="divButton"><span style={{paddingRight:"2px"}}>-</span>Add<span style={{paddingLeft:"2px"}}>+</span></div>
-            </div>
-          </div>
-          <div className="line">
-          </div>
-        </div>
+        <Items key={index} counter={counter[item["Dish Name"]]} item={item} index={index} decreaseCounter={decreaseCounter} increaseCounter={increaseCounter}/>
       )
     });
     return (

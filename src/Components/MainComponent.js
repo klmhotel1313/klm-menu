@@ -1,6 +1,5 @@
 import React from 'react';
 import FoodMenuComponent from './FoodMenuComponent.js'
-import NavBarComponent from './NavBarComponent.js'
 import ImageComponent from './ImageComponent.js'
 import ModalComponent from './ModalComponent.js'
 import data from '../MenuData/data.json';
@@ -20,7 +19,7 @@ function MainComponent() {
 
   const scrollToCategory=(category)=>{
     setModalShow(false);
-    if(cat[category]=="selected"){
+    if(cat[category]==="selected"){
 
       setCat({
         ...cat,
@@ -39,11 +38,12 @@ function MainComponent() {
   }
   return (
     <div>
-      <NavBarComponent/>
       <ImageComponent/>
       <FoodMenuComponent cat={cat}/>
       <div className="floatdiv">
-        <button className="float" onClick={() => setModalShow(true)}>Menu</button>
+        <div className="float" onClick={() => setModalShow(true)}>
+          MENU
+        </div>
       </div>
       <ModalComponent
         show={modalShow}

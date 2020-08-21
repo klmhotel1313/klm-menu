@@ -1,0 +1,15 @@
+.animated{
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s;
+}
+
+@-webkit-keyframes slideIn {
+  from {right: -200px; opacity: 0}
+  to {left: 0px; opacity: 1}
+}
+@keyframes slideIn {
+  from {right: -200px; opacity: 0}
+  to {right: 0px; opacity: 1}
+}
