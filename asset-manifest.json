@@ -1,27 +1,29 @@
 {
   "files": {
-    "main.css": "/klm-menu/static/css/main.1ac8ca15.chunk.css",
-    "main.js": "/klm-menu/static/js/main.792ffda0.chunk.js",
-    "main.js.map": "/klm-menu/static/js/main.792ffda0.chunk.js.map",
+    "main.css": "/klm-menu/static/css/main.f21565e2.chunk.css",
+    "main.js": "/klm-menu/static/js/main.fa319228.chunk.js",
+    "main.js.map": "/klm-menu/static/js/main.fa319228.chunk.js.map",
     "runtime-main.js": "/klm-menu/static/js/runtime-main.c8c649db.js",
     "runtime-main.js.map": "/klm-menu/static/js/runtime-main.c8c649db.js.map",
     "static/css/2.f3cffc9e.chunk.css": "/klm-menu/static/css/2.f3cffc9e.chunk.css",
-    "static/js/2.4633eaf4.chunk.js": "/klm-menu/static/js/2.4633eaf4.chunk.js",
-    "static/js/2.4633eaf4.chunk.js.map": "/klm-menu/static/js/2.4633eaf4.chunk.js.map",
+    "static/js/2.147a950d.chunk.js": "/klm-menu/static/js/2.147a950d.chunk.js",
+    "static/js/2.147a950d.chunk.js.map": "/klm-menu/static/js/2.147a950d.chunk.js.map",
     "index.html": "/klm-menu/index.html",
-    "precache-manifest.0e05979f3121c89eb715c58e390b2d73.js": "/klm-menu/precache-manifest.0e05979f3121c89eb715c58e390b2d73.js",
+    "precache-manifest.01d2f5113fcc045e2849ffb7204f9a19.js": "/klm-menu/precache-manifest.01d2f5113fcc045e2849ffb7204f9a19.js",
     "service-worker.js": "/klm-menu/service-worker.js",
     "static/css/2.f3cffc9e.chunk.css.map": "/klm-menu/static/css/2.f3cffc9e.chunk.css.map",
-    "static/css/main.1ac8ca15.chunk.css.map": "/klm-menu/static/css/main.1ac8ca15.chunk.css.map",
-    "static/js/2.4633eaf4.chunk.js.LICENSE.txt": "/klm-menu/static/js/2.4633eaf4.chunk.js.LICENSE.txt",
+    "static/css/main.f21565e2.chunk.css.map": "/klm-menu/static/css/main.f21565e2.chunk.css.map",
+    "static/js/2.147a950d.chunk.js.LICENSE.txt": "/klm-menu/static/js/2.147a950d.chunk.js.LICENSE.txt",
+    "static/media/EmptyCart.png": "/klm-menu/static/media/EmptyCart.3dcd56f4.png",
     "static/media/image1.jpg": "/klm-menu/static/media/image1.c486a83e.jpg",
-    "static/media/image2.jpg": "/klm-menu/static/media/image2.c486a83e.jpg"
+    "static/media/image2.jpg": "/klm-menu/static/media/image2.c486a83e.jpg",
+    "static/media/klmlogo.png": "/klm-menu/static/media/klmlogo.68ec6527.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c8c649db.js",
     "static/css/2.f3cffc9e.chunk.css",
-    "static/js/2.4633eaf4.chunk.js",
-    "static/css/main.1ac8ca15.chunk.css",
-    "static/js/main.792ffda0.chunk.js"
+    "static/js/2.147a950d.chunk.js",
+    "static/css/main.f21565e2.chunk.css",
+    "static/js/main.fa319228.chunk.js"
   ]
 }
