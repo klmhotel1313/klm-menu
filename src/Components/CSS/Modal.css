@@ -1,6 +1,6 @@
 .modal-Main{
   position:fixed;
-  z-index: 3;
+  z-index: 5;
   left:0;
   width: 100%;
   justify-content: center;
@@ -19,6 +19,7 @@
   border: 1px solid #888;
   width: fit-content !important;
   radius:20px;
+  overflow-y: scroll;
 }
 .backdrop{
   width: 100%;

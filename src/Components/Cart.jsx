@@ -1,9 +1,9 @@
 import React from 'react';
 import CartItems from './CartItems.jsx';
-
+import {Heading} from '../pojo.js';
 function Cart(props) {
   let [counter,setCounter]=React.useState({})
-
+  let heading=new Heading()
   React.useEffect(()=>{
     let session=window.sessionStorage.getItem("counter");
     setCounter(JSON.parse(session===null||session===undefined?"{}":session))
@@ -11,8 +11,8 @@ function Cart(props) {
 
   let increaseCounter=(item,index)=>{
     let count=0;
-    if(Object.keys(counter).length!==0&&counter[item["Dish Name"]]!==undefined){
-      count=counter[item["Dish Name"]]
+    if(Object.keys(counter).length!==0&&counter[item[heading.dishName]+item[heading.type]]!==undefined){
+      count=counter[item[heading.dishName]+item[heading.type]]
       count+=1
     }
     else{
@@ -20,23 +20,23 @@ function Cart(props) {
     }
     setCounter({
       ...counter,
-      [item["Dish Name"]]:count
+      [item[heading.dishName]+item[heading.type]]:count
     })
     window.sessionStorage.setItem("counter",JSON.stringify({
       ...counter,
-      [item["Dish Name"]]:count
+      [item[heading.dishName]+item[heading.type]]:count
     }))
   }
   let decreaseCounter=(item,index)=>{
     let count=0
 
-    if(counter[item["Dish Name"]]>0){
-      count=counter[item["Dish Name"]]
+    if(counter[item[heading.dishName]+item[heading.type]]>0){
+      count=counter[item[heading.dishName]+item[heading.type]]
       count-=1
 
     }
     if(count===0){
-      let dishName=item["Dish Name"]
+      let dishName=item[heading.dishName]+item[heading.type]
       let {[dishName]:items,...rest} = counter;
       setCounter({
         ...rest
@@ -49,11 +49,11 @@ function Cart(props) {
   else{
     setCounter({
       ...counter,
-      [item["Dish Name"]]:count
+      [item[heading.dishName]+item[heading.type]]:count
     })
     window.sessionStorage.setItem("counter",JSON.stringify({
       ...counter,
-      [item["Dish Name"]]:count
+      [item[heading.dishName]+item[heading.type]]:count
     }))
   }
 

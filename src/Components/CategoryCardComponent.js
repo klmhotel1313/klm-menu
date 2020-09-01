@@ -2,9 +2,11 @@ import React from 'react';
 import {Card} from 'react-bootstrap';
 import './CSS/Category.css';
 import Items from './Items.jsx';
+import {Heading} from '../pojo.js';
 
 function CategoryCardComponent(props) {
   const ref=React.useRef(null);
+  let heading=new Heading();
   let [counter,setCounter]=React.useState(JSON.parse(window.sessionStorage.getItem("counter")!==null?window.sessionStorage.getItem("counter"):"{}"))
   React.useEffect(()=>{
 
@@ -21,8 +23,8 @@ function CategoryCardComponent(props) {
 
   let increaseCounter=(item,index)=>{
     let count=0;
-    if(Object.keys(counter).length!==0&&counter[item["Dish Name"]]!==undefined){
-      count=counter[item["Dish Name"]]
+    if(Object.keys(counter).length!==0&&counter[item[heading.dishName]+item[heading.type]]!==undefined){
+      count=counter[item[heading.dishName]+item[heading.type]]
       count+=1
     }
     else{
@@ -30,35 +32,36 @@ function CategoryCardComponent(props) {
     }
     setCounter({
       ...counter,
-      [item["Dish Name"]]:count
+      [item[heading.dishName]+item[heading.type]]:count
     })
+    console.log(counter);
     window.sessionStorage.setItem("counter",JSON.stringify({
       ...counter,
-      [item["Dish Name"]]:count
+      [item[heading.dishName]+item[heading.type]]:count
     }))
   }
   let decreaseCounter=(item,index)=>{
     let count=0
-    if(counter[item["Dish Name"]]>0){
-      count=counter[item["Dish Name"]]
+    if(counter[item[heading.dishName]+item[heading.type]]>0){
+      count=counter[item[heading.dishName]+item[heading.type]]
       count-=1
       setCounter({
         ...counter,
-        [item["Dish Name"]]:count
+        [item[heading.dishName]+item[heading.type]]:count
       })
       window.sessionStorage.setItem("counter",JSON.stringify({
         ...counter,
-        [item["Dish Name"]]:count
+        [item[heading.dishName]+item[heading.type]]:count
       }))
     }
     if(count===0){
       setCounter({
         ...counter,
-        [item["Dish Name"]]:undefined
+        [item[heading.dishName]+item[heading.type]]:undefined
       })
       window.sessionStorage.setItem("counter",JSON.stringify({
         ...counter,
-        [item["Dish Name"]]:undefined}))
+        [item[heading.dishName]+item[heading.type]]:undefined}))
       }
 
     }
@@ -67,7 +70,7 @@ function CategoryCardComponent(props) {
 
     let items=props.data[props.category].map((item,index)=>{
       return(
-        <Items key={index} counter={counter[item["Dish Name"]]} item={item} index={index} decreaseCounter={decreaseCounter} increaseCounter={increaseCounter}/>
+        <Items key={index} counter={counter[item[heading.dishName]+item[heading.type]]} item={item} index={index} decreaseCounter={decreaseCounter} increaseCounter={increaseCounter}/>
       )
     });
     return (

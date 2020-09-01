@@ -1,114 +1,384 @@
 {
     "Shorba and Soups": [
         {
-            "Dish Name": "TAMATAR DHANIYA SHORBA",
-            "Type": "VEG",
-            "Price": 100,
-            "Description": null
+            "dish name": "TAMATAR DHANIYA SHORBA",
+            "type": "VEG",
+            "price": 100,
+            "description": null
         },
         {
-            "Dish Name": "DAL PALAK KA SHORBA",
-            "Type": "VEG",
-            "Price": 100,
-            "Description": null
+            "dish name": "DAL PALAK KA SHORBA",
+            "type": "VEG",
+            "price": 100,
+            "description": null
         },
         {
-            "Dish Name": "LEMON CORIANDER",
-            "Type": "VEG",
-            "Price": "100-130",
-            "Description": null
+            "dish name": "LEMON CORIANDER",
+            "type": "VEG",
+            "price": "100-130",
+            "description": null
         },
         {
-            "Dish Name": "SWEET CORN",
-            "Type": "VEG",
-            "Price": "100-130",
-            "Description": null
+            "dish name": "SWEET CORN",
+            "type": "VEG",
+            "price": "100-130",
+            "description": null
         },
         {
-            "Dish Name": "HOT AND SOUR",
-            "Type": "VEG",
-            "Price": "100-130",
-            "Description": null
+            "dish name": "HOT AND SOUR",
+            "type": "VEG",
+            "price": "100-130",
+            "description": null
         },
         {
-            "Dish Name": "TALUMEIN",
-            "Type": "VEG",
-            "Price": "100-130",
-            "Description": null
+            "dish name": "TALUMEIN",
+            "type": "VEG",
+            "price": "100-130",
+            "description": null
         },
         {
-            "Dish Name": "MANCHAOW",
-            "Type": "VEG",
-            "Price": "100-130",
-            "Description": null
+            "dish name": "MANCHAOW",
+            "type": "VEG",
+            "price": "100-130",
+            "description": null
         },
         {
-            "Dish Name": "MURG ADRAKI SHORBA",
-            "Type": "VEG",
-            "Price": 130,
-            "Description": null
+            "dish name": "MURG ADRAKI SHORBA",
+            "type": "VEG",
+            "price": 130,
+            "description": null
+        }
+    ],
+    "Rice": [
+        {
+            "dish name": "NIZAAMI TARKARI BIRYANI",
+            "type": "VEG",
+            "price": 190,
+            "description ": "The colourful combination of garden fresh vegetable and aromatic basmati cooked on dum"
+        },
+        {
+            "dish name": "CHOICE OF PULAO",
+            "type": "VEG",
+            "price": 160,
+            "description ": "Subz/Green peas/Zeera"
+        },
+        {
+            "dish name": "SADA CHAWAL",
+            "type": "VEG",
+            "price": 140,
+            "description ": "Streamed Rice"
+        },
+        {
+            "dish name": "FRIED RICE",
+            "type": "VEG",
+            "price": 130,
+            "description ": "Sauté rice with chopped vegetables"
+        },
+        {
+            "dish name": "VEGETABLE GINGER FRIED RICE",
+            "type": "VEG",
+            "price": 190,
+            "description ": "Sauté ginger flavoured rice"
+        },
+        {
+            "dish name": "ONION MINT PULAO",
+            "type": "VEG",
+            "price": 140,
+            "description ": null
+        },
+        {
+            "dish name": "KASHMIRI NAVRATAN PULAO",
+            "type": "VEG",
+            "price": 140,
+            "description ": null
+        },
+        {
+            "dish name": "HYDERABAD DUM BIRYANI",
+            "type": "NON VEG",
+            "price": "260-290",
+            "description ": "Chicken/Mutton"
+        },
+        {
+            "dish name": "FRIED RICE",
+            "type": "NON VEG",
+            "price": 240,
+            "description ": "Egg/Chicken"
+        },
+        {
+            "dish name": "ONION MINT PULAO",
+            "type": "NON VEG",
+            "price": 260,
+            "description ": "Chicken"
+        },
+        {
+            "dish name": "KASHMIRI NAVRATAN PULAO",
+            "type": "NON VEG",
+            "price": 260,
+            "description ": "Chicken"
+        }
+    ],
+    "Dhai yoghurt": [
+        {
+            "dish name": "DAHI TADKE WALA/PLAIN",
+            "type": "VEG",
+            "price": "120-90",
+            "description ": null
+        },
+        {
+            "dish name": "CHOICE OF RAITA",
+            "type": "VEG",
+            "price": 120,
+            "description ": "Boondi/Pineapple/Cucumber/Pudina/Mix vegetable"
+        }
+    ],
+    "Noobles & Pasta": [
+        {
+            "dish name": "TRIPLE SZECHWAN NOODLES",
+            "type": "VEG",
+            "price": 250,
+            "description ": "Combination of crispy noodles,rice and boiled noodles with sautéed vegetables and szechwan sauce "
+        },
+        {
+            "dish name": "VEGETABLE CHOPSUEY",
+            "type": "VEG",
+            "price": 200,
+            "description ": null
+        },
+        {
+            "dish name": "HAKKA NOODLES",
+            "type": "EGG/CHICKEN",
+            "price": "250-275",
+            "description ": null
+        },
+        {
+            "dish name": "CHOICE OF PASTA",
+            "type": "VEG",
+            "price": "250-275",
+            "description ": "Penne/spaghetti/Fuseli served with choice of sauce arrabbiata/Alfredo"
+        },
+        {
+            "dish name": "CHOICE OF PASTA",
+            "type": "NON VEG",
+            "price": "250-275",
+            "description ": "Penne/spaghetti/Fuseli served with choice of sauce arrabbiata/Alfredo"
+        },
+        {
+            "dish name": "SZECHWAN NOODLES",
+            "type": "VEG",
+            "price": "250-275",
+            "description ": "Spicy noodles sautéed with a combination of chicken"
+        },
+        {
+            "dish name": "SZECHWAN NOODLES",
+            "type": "NON VEG",
+            "price": "250-275",
+            "description ": "Spicy noodles sautéed with a combination of chicken"
+        }
+    ],
+    "Roti & Bread": [
+        {
+            "dish name": "TANDOORI ROTI",
+            "type": "VEG",
+            "price": 25,
+            "description ": null
+        },
+        {
+            "dish name": "PLAIN NAAN",
+            "type": "VEG",
+            "price": 35,
+            "description ": null
+        },
+        {
+            "dish name": "CHEESE GARLIC NAAN",
+            "type": "VEG",
+            "price": 70,
+            "description ": null
+        },
+        {
+            "dish name": "PUDINA/LACCHA PRANTHA",
+            "type": "VEG",
+            "price": 55,
+            "description ": null
+        },
+        {
+            "dish name": "BUTTER NAAN",
+            "type": "VEG",
+            "price": 50,
+            "description ": null
+        },
+        {
+            "dish name": "MISSI ROTI",
+            "type": "VEG",
+            "price": 40,
+            "description ": null
+        },
+        {
+            "dish name": "BHARWAN KULCHA",
+            "type": "VEG",
+            "price": 70,
+            "description ": "Onian/paneer/aloo"
+        },
+        {
+            "dish name": "MIRCHI PRANTHA",
+            "type": "VEG",
+            "price": 45,
+            "description ": "Lal/hari"
+        },
+        {
+            "dish name": "ONION ROTI",
+            "type": "VEG",
+            "price": 30,
+            "description ": null
+        }
+    ],
+    "Beverages": [
+        {
+            "dish name": "BUTTER MILK(CHHAACH)",
+            "type": "VEG",
+            "price": 60,
+            "description ": "Iced butter milk tempered with freshly broiled cumin,gamish with coriander and green chilli"
+        },
+        {
+            "dish name": "MINERAL WATER",
+            "type": "VEG",
+            "price": 45,
+            "description ": null
+        },
+        {
+            "dish name": "SEASONAL FRESH FRUIT",
+            "type": "VEG",
+            "price": 150,
+            "description ": null
+        },
+        {
+            "dish name": "CHOICE OF CANNED JUICE",
+            "type": "VEG",
+            "price": 70,
+            "description ": null
+        },
+        {
+            "dish name": "COLD COFFEE",
+            "type": "VEG",
+            "price": "120-150",
+            "description ": "Plain/with ice cream"
+        },
+        {
+            "dish name": "AERATED DRINKS",
+            "type": "VEG",
+            "price": 45,
+            "description ": null
+        },
+        {
+            "dish name": "FRESH LIME SODA/WATER ",
+            "type": "VEG",
+            "price": 60,
+            "description ": null
+        },
+        {
+            "dish name": "HOT COFFEE",
+            "type": "VEG",
+            "price": 60,
+            "description ": null
+        },
+        {
+            "dish name": "HOT TEA",
+            "type": "VEG",
+            "price": 50,
+            "description ": null
+        },
+        {
+            "dish name": "MILK SHAKES",
+            "type": "VEG",
+            "price": 150,
+            "description ": "Vanilla,chocolate,strawberry,banana"
+        }
+    ],
+    "Dessert": [
+        {
+            "dish name": "GULAB JAMUN",
+            "type": "VEG",
+            "price": 100,
+            "description": null
+        },
+        {
+            "dish name": "CHOICE OF ICE CREAM",
+            "type": "VEG",
+            "price": 100,
+            "description": null
+        },
+        {
+            "dish name": "TOOTY FROOTY",
+            "type": "VEG",
+            "price": 130,
+            "description": null
+        },
+        {
+            "dish name": "TODAY'S SPECIAL",
+            "type": "VEG",
+            "price": 150,
+            "description": null
         }
     ],
     "Salad": [
         {
-            "Dish Name": "GARDEN FRESH SALAD",
-            "Type": "VEG",
-            "Price": 110,
-            "Description": null
+            "dish name": "GARDEN FRESH SALAD",
+            "type": "VEG",
+            "price": 110,
+            "description": null
         },
         {
-            "Dish Name": "ALOO CHANA CHAT",
-            "Type": "VEG",
-            "Price": 130,
-            "Description": null
+            "dish name": "ALOO CHANA CHAT",
+            "type": "VEG",
+            "price": 130,
+            "description": null
         },
         {
-            "Dish Name": "CHATPATA PANEER TIKKA SALAD",
-            "Type": "VEG",
-            "Price": 140,
-            "Description": null
+            "dish name": "CHATPATA PANEER TIKKA SALAD",
+            "type": "VEG",
+            "price": 140,
+            "description": null
         },
         {
-            "Dish Name": "KIM CHI SALAD",
-            "Type": "VEG",
-            "Price": 140,
-            "Description": null
+            "dish name": "KIM CHI SALAD",
+            "type": "VEG",
+            "price": 140,
+            "description": null
         },
         {
-            "Dish Name": "RUSSIAN SALAD",
-            "Type": "VEG",
-            "Price": 140,
-            "Description": null
+            "dish name": "RUSSIAN SALAD",
+            "type": "VEG",
+            "price": 140,
+            "description": null
         },
         {
-            "Dish Name": "PEANUT SALAD",
-            "Type": "VEG",
-            "Price": 130,
-            "Description": null
+            "dish name": "PEANUT SALAD",
+            "type": "VEG",
+            "price": 130,
+            "description": null
         },
         {
-            "Dish Name": "MASALA PAPAD",
-            "Type": "VEG",
-            "Price": 75,
-            "Description": null
+            "dish name": "MASALA PAPAD",
+            "type": "VEG",
+            "price": 75,
+            "description": null
         },
         {
-            "Dish Name": "CEASAR SALAD",
-            "Type": "VEG",
-            "Price": 140,
-            "Description": null
+            "dish name": "CEASAR SALAD",
+            "type": "VEG",
+            "price": 140,
+            "description": null
         },
         {
-            "Dish Name": "FRUIT SALAD",
-            "Type": "VEG",
-            "Price": 100,
-            "Description": null
+            "dish name": "FRUIT SALAD",
+            "type": "VEG",
+            "price": 100,
+            "description": null
         },
         {
-            "Dish Name": "MURG TIKKA SALAD",
-            "Type": "VEG",
-            "Price": 220,
-            "Description": null
+            "dish name": "MURG TIKKA SALAD",
+            "type": "VEG",
+            "price": 220,
+            "description": null
         }
     ]
 }

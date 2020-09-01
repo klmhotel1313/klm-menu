@@ -3,21 +3,37 @@ import {Card} from 'react-bootstrap';
 import './CSS/Category.css';
 import veg from '../icons/veg.png';
 import nonVeg from '../icons/non-veg.png';
+import egg from '../icons/egg.png';
+import {Heading} from '../pojo.js';
 
 function Items(props) {
+  let heading=new Heading();
+  let checkType=()=>{
+    if(props.item[heading.type]===null){
+      return <img className="type" alt={props.item[heading.type]} src={veg}/>
+    }
+    if(props.item[heading.type].toLowerCase().includes("egg")){
+      return <img className="type" alt={props.item[heading.type]} src={egg}/>
+    }
+    else if(props.item[heading.type].toLowerCase().includes("non")){
+      return <img className="type" alt={props.item[heading.type]} src={nonVeg}/>
+    }
+    else{
+      return <img className="type" alt={props.item[heading.type]} src={veg}/>
+    }
+  }
   return(
     <div style={{width:'100%'}} key={props.index}>
       <div className="categoryContainer">
         <div className="div1">
           <Card.Body >
             <Card.Title>
-              {props.item["Type"].toLowerCase()==="VEG".toLowerCase()?<img className="type" alt={props.item["Type"]} src={veg}/>:<img alt={props.item["Type"]} src={nonVeg}/>}
-              {props.item["Dish Name"]}
+              {checkType()}
+              {props.item[heading.dishName]}
             </Card.Title>
             <Card.Text className="price">
-
-              {props.item["Description"]}
-              {"₹"+props.item["Price"]}
+              {props.item[heading.description]}
+              {"₹"+props.item[heading.price]}
             </Card.Text>
           </Card.Body>
         </div>
