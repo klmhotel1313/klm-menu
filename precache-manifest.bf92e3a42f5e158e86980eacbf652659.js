@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a7067ed43df5742ff88d6244d0f77a2e",
+    "revision": "5c7c1b0b0b57aa716a5eb3bb7870b716",
     "url": "/klm-menu/index.html"
   },
   {
-    "revision": "bf3edf9d994c297dc415",
+    "revision": "bb9f6ffe9d0543e093c0",
     "url": "/klm-menu/static/css/2.f3cffc9e.chunk.css"
   },
   {
-    "revision": "12c18a5bd0a603b07f70",
-    "url": "/klm-menu/static/css/main.088d55cb.chunk.css"
+    "revision": "305bb4ff1d5f2cda4f84",
+    "url": "/klm-menu/static/css/main.4cc40ca9.chunk.css"
   },
   {
-    "revision": "bf3edf9d994c297dc415",
-    "url": "/klm-menu/static/js/2.d62de3d3.chunk.js"
+    "revision": "bb9f6ffe9d0543e093c0",
+    "url": "/klm-menu/static/js/2.89bcca78.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/klm-menu/static/js/2.d62de3d3.chunk.js.LICENSE.txt"
+    "url": "/klm-menu/static/js/2.89bcca78.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "12c18a5bd0a603b07f70",
-    "url": "/klm-menu/static/js/main.983690a7.chunk.js"
+    "revision": "305bb4ff1d5f2cda4f84",
+    "url": "/klm-menu/static/js/main.62c5a7bd.chunk.js"
   },
   {
     "revision": "5bb2553b31bff0a305a7",
