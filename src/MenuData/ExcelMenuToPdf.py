@@ -14,6 +14,6 @@ for key in menu_data.keys():
 		menu_data[key][index]=new_dict;
 		
 		
-with open('data.json', 'w') as outfile:
+with open('src/MenuData/data.json', 'w') as outfile:
     json.dump(menu_data,outfile,indent=4,ensure_ascii=False)	
 	
