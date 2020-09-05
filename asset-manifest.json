@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/klm-menu/static/css/main.4cc40ca9.chunk.css",
-    "main.js": "/klm-menu/static/js/main.c629663e.chunk.js",
-    "main.js.map": "/klm-menu/static/js/main.c629663e.chunk.js.map",
+    "main.js": "/klm-menu/static/js/main.cde27f80.chunk.js",
+    "main.js.map": "/klm-menu/static/js/main.cde27f80.chunk.js.map",
     "runtime-main.js": "/klm-menu/static/js/runtime-main.c8c649db.js",
     "runtime-main.js.map": "/klm-menu/static/js/runtime-main.c8c649db.js.map",
     "static/css/2.f3cffc9e.chunk.css": "/klm-menu/static/css/2.f3cffc9e.chunk.css",
     "static/js/2.e8f29e53.chunk.js": "/klm-menu/static/js/2.e8f29e53.chunk.js",
     "static/js/2.e8f29e53.chunk.js.map": "/klm-menu/static/js/2.e8f29e53.chunk.js.map",
     "index.html": "/klm-menu/index.html",
-    "precache-manifest.8c8262af9973c0f3247125b3d97c2bb1.js": "/klm-menu/precache-manifest.8c8262af9973c0f3247125b3d97c2bb1.js",
+    "precache-manifest.fa1bda0ec2deffdff8e67ebe5188d52e.js": "/klm-menu/precache-manifest.fa1bda0ec2deffdff8e67ebe5188d52e.js",
     "service-worker.js": "/klm-menu/service-worker.js",
     "static/css/2.f3cffc9e.chunk.css.map": "/klm-menu/static/css/2.f3cffc9e.chunk.css.map",
     "static/css/main.4cc40ca9.chunk.css.map": "/klm-menu/static/css/main.4cc40ca9.chunk.css.map",
@@ -25,6 +25,6 @@
     "static/css/2.f3cffc9e.chunk.css",
     "static/js/2.e8f29e53.chunk.js",
     "static/css/main.4cc40ca9.chunk.css",
-    "static/js/main.c629663e.chunk.js"
+    "static/js/main.cde27f80.chunk.js"
   ]
 }
