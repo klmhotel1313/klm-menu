@@ -1,0 +1,35 @@
+.counter {
+  width: 100%;
+  height: 30px;
+  position: fixed;
+  bottom: 0;
+  background: #67b710f7;
+  max-width: 756px;
+  font-size: auto;
+  color: white;
+  display: flex;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s;
+  margin: auto;
+  z-index:2
+}
+
+.counterCol{
+  display: flex;
+  justify-content: flex-end;
+}
+
+@-webkit-keyframes slideIn {
+  from {bottom: -100px; opacity: 0}
+  to {bottom: 0px; opacity: 1}
+}
+@keyframes slideIn {
+  from {bottom: -100px; opacity: 0}
+  to {bottom: 0px; opacity: 1}
+}
+a{
+  color:white !important;
+  text-decoration: none !important;
+}

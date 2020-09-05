@@ -46,10 +46,14 @@
 .price{
   color: grey
 }
+.description{
+  color: #420707;
+  font-size:13px;
+}
 .type{
   width:21px;
   height:21px;
 }
 .spanSign{
-font-size:1.1rem;
+  font-size:1.1rem;
 }

@@ -12,7 +12,7 @@ function Cart(props) {
   let increaseCounter=(item,index)=>{
     let count=0;
     if(Object.keys(counter).length!==0&&counter[item[heading.dishName]+item[heading.type]]!==undefined){
-      count=counter[item[heading.dishName]+item[heading.type]]
+      count=counter[item[heading.dishName]+item[heading.type]][0]
       count+=1
     }
     else{
@@ -20,18 +20,18 @@ function Cart(props) {
     }
     setCounter({
       ...counter,
-      [item[heading.dishName]+item[heading.type]]:count
+      [item[heading.dishName]+item[heading.type]]:[count,item[heading.price]]
     })
     window.sessionStorage.setItem("counter",JSON.stringify({
       ...counter,
-      [item[heading.dishName]+item[heading.type]]:count
+      [item[heading.dishName]+item[heading.type]]:[count,item[heading.price]]
     }))
   }
   let decreaseCounter=(item,index)=>{
     let count=0
 
-    if(counter[item[heading.dishName]+item[heading.type]]>0){
-      count=counter[item[heading.dishName]+item[heading.type]]
+    if(counter[item[heading.dishName]+item[heading.type]][0]>0){
+      count=counter[item[heading.dishName]+item[heading.type]][0]
       count-=1
 
     }
@@ -49,11 +49,11 @@ function Cart(props) {
   else{
     setCounter({
       ...counter,
-      [item[heading.dishName]+item[heading.type]]:count
+      [item[heading.dishName]+item[heading.type]]:[count,item[heading.price]]
     })
     window.sessionStorage.setItem("counter",JSON.stringify({
       ...counter,
-      [item[heading.dishName]+item[heading.type]]:count
+      [item[heading.dishName]+item[heading.type]]:[count,item[heading.price]]
     }))
   }
 

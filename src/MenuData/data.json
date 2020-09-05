@@ -49,86 +49,840 @@
             "description": null
         }
     ],
+    "Kababs & starter": [
+        {
+            "dish name": "TANDOORI PANEER TIKKA",
+            "type": "VEG",
+            "price": 275,
+            "description": "Cottage cheese chunks marinated in choice of marination"
+        },
+        {
+            "dish name": "PANEER HARYALI TIKKA",
+            "type": "VEG",
+            "price": 275,
+            "description": "Cube of paneer marinated in green minty masala and grilled in clay oven"
+        },
+        {
+            "dish name": "TANDOORI PANEER SASHLIK",
+            "type": "VEG",
+            "price": 275,
+            "description": "Paneer sashlik in tandoori style chef specially "
+        },
+        {
+            "dish name": "ALOO NAZAKAT",
+            "type": "VEG",
+            "price": 265,
+            "description": "Scooped potatoes stuffed with cottage cheese,dry fruits lightly seasoned with spices and roasted in tandoor"
+        },
+        {
+            "dish name": "MUSHROOM KALI MIRCH",
+            "type": "VEG",
+            "price": 275,
+            "description": "Button mushroom stuffed with cottage cheese,dry fruits lightly seasoned with spices and roasted in tandoor"
+        },
+        {
+            "dish name": "MUSHROOM TIKKA",
+            "type": "VEG",
+            "price": 275,
+            "description": "Button mushroom marinated & grilled in clay oven"
+        },
+        {
+            "dish name": "MASALA SOYA CHAMP",
+            "type": "VEG",
+            "price": 275,
+            "description": "Soya been chop marinated with spice curd & grilled in tandoor"
+        },
+        {
+            "dish name": "TANDOORI SOYA CHAMP",
+            "type": "VEG",
+            "price": 275,
+            "description": "Soya been chop marinated with spice curd & frilled in indian "
+        },
+        {
+            "dish name": "PANEER PAPPADI",
+            "type": "VEG",
+            "price": 250,
+            "description": "Paneer cubes are marinated in curd based paste and then coated in roasted "
+        },
+        {
+            "dish name": "STUFFED MUSHROOM ",
+            "type": "VEG",
+            "price": 275,
+            "description": "A whole mushroom stuffed with paneer"
+        },
+        {
+            "dish name": "TANDOORI ALOO CHATPATE",
+            "type": "VEG",
+            "price": 265,
+            "description": "Baby potatoes marinated and finished in tandoor"
+        },
+        {
+            "dish name": "HARA BHARA KEBEB",
+            "type": "VEG",
+            "price": 265,
+            "description": "Vegetarian kebab made with patatoes and green vegetable spinach and peas"
+        },
+        {
+            "dish name": "HONEY CHILLI POTATO",
+            "type": "VEG",
+            "price": 260,
+            "description": "Finger style cutting potato toes in chilli & honey"
+        },
+        {
+            "dish name": "BUTTON MUSHROOM CHILLI GARLIC",
+            "type": "VEG",
+            "price": "250/275",
+            "description": "Batter fried button mushroom tossed with spring onion,chilli paste and garlic"
+        },
+        {
+            "dish name": "VEGETABLE SPRING ROLLS",
+            "type": "VEG",
+            "price": 225,
+            "description": "Chinese vegetable stuffed with soya,garlic,filled in spring roll sheet"
+        },
+        {
+            "dish name": "CRISPY CORN SALT & PEPPER",
+            "type": "VEG",
+            "price": 225,
+            "description": "American corn coated with batter,fried,tossed with onion garlic,carrots and chinese maggi seasiong sauce"
+        },
+        {
+            "dish name": "VEG MANCHURIAN ",
+            "type": "VEG",
+            "price": "225/235",
+            "description": "DRY/GRAVY"
+        },
+        {
+            "dish name": "CHEESE CORN ROLL",
+            "type": "VEG",
+            "price": 275,
+            "description": "American corn coated with batter,fries,tossed with onion garlic and deep fried "
+        },
+        {
+            "dish name": "FRENCH FRY",
+            "type": "VEG",
+            "price": 175,
+            "description": null
+        },
+        {
+            "dish name": "SIZZLING PANEER WITH ASSORTED VEGETABLES ",
+            "type": "VEG",
+            "price": 260,
+            "description": "Cubes of pan fried paneer tossed with assorted vegetables with mushroom and chilli sauce"
+        },
+        {
+            "dish name": "STIR FRIED VEGETABLES & CASHWNUTS WITH GARLIC",
+            "type": "VEG",
+            "price": 260,
+            "description": "Assorted vegetables tossed with cash nuts,chopped garlic soya,finished with spring onion"
+        },
+        {
+            "dish name": "BABY CORN AND MUSHROOM IN CHILLI GARLIC SAUCE",
+            "type": "VEG",
+            "price": 260,
+            "description": "Stir fried baby corn and mushroom in chilli garlic"
+        },
+        {
+            "dish name": "STIR FRIED SWEET\"N\"SOUR VEGETABLES ",
+            "type": "VEG",
+            "price": 260,
+            "description": "Assorted vegetables in sweet and sour sauce"
+        },
+        {
+            "dish name": "COTTAGE CHEESE SHASHLIK SIZZLER",
+            "type": "VEG",
+            "price": 260,
+            "description": "Grilled cottage cheese steak served with bbq sauce,herb rice & garden charred vegetables "
+        },
+        {
+            "dish name": "VEGETABLE SIZZLER",
+            "type": "VEG",
+            "price": 260,
+            "description": "Vegetable steak served with charred vegetables,home fries & creamy herb sauce"
+        },
+        {
+            "dish name": "DAHI KE KEBAB",
+            "type": "VEG",
+            "price": 265,
+            "description": "Hangled yoghurt in wrap of bread and fried it golden"
+        },
+        {
+            "dish name": "VEG SEEKH KEBAB(TANDOORI)",
+            "type": "VEG",
+            "price": 265,
+            "description": "Made with mix veggie and soya granules.these can grilled in charcoal grilled or oven grilled"
+        },
+        {
+            "dish name": "CORN SEEKH KEBAB",
+            "type": "VEG",
+            "price": 265,
+            "description": "Made with grated sweet corn and mashed potatoes to obtain firmer and better textured kebabs it is advisable to steam the potatoes "
+        },
+        {
+            "dish name": "SUBZ SHAMI KEBAB",
+            "type": "VEG",
+            "price": 265,
+            "description": "Vegetable kebabs are spiced with a coarse spice of mix of cloves,cinnamon,black peppercorns and red chillies,enriched with carrots and flavoured with chana dal"
+        },
+        {
+            "dish name": "ASSORTED VEG PAKORA",
+            "type": "VEG",
+            "price": 240,
+            "description": "Vegetable pakora recipe is an easy to make indian starter prepared with mixed vegetables,chickpea flour and carom seeds"
+        },
+        {
+            "dish name": "PANEER PAKORA",
+            "type": "VEG",
+            "price": 265,
+            "description": "Marinated paneer dipped in a better and deep fried"
+        },
+        {
+            "dish name": "SABZ GALLAFI KEBAB",
+            "type": "VEG",
+            "price": 265,
+            "description": "Kebab made with mixed veggie and soya granules. These can be grilled in a pan,charcoal grilled oven"
+        },
+        {
+            "dish name": "KLM SHAKAHARI JUGALBANDI",
+            "type": "VEG",
+            "price": 425,
+            "description": "Combination of vegetarian kebabs"
+        },
+        {
+            "dish name": "CHILLI PANEER",
+            "type": "VEG",
+            "price": 260,
+            "description": "An all time favourite "
+        },
+        {
+            "dish name": "SZECHWAN CHILLI COTTAGE CHEESE",
+            "type": "VEG",
+            "price": 260,
+            "description": "Cottage cheese tossed with sliced onion pepper and Szechwan sauce"
+        },
+        {
+            "dish name": "CRISPY VEGETABLES IN SZECHWAN SAUCE",
+            "type": "VEG",
+            "price": 230,
+            "description": "Crispy vegetables coasted with Szechwan specs,served dry"
+        },
+        {
+            "dish name": "SEEKH KEBAB KHAAS",
+            "type": "NON VEG",
+            "price": 400,
+            "description": "Finely minced lamb blended with our chef's own combination of herbs and spices roasted on charcoal embers and flavoured with hint of mint"
+        },
+        {
+            "dish name": "MURG K PACHRE",
+            "type": "NON VEG",
+            "price": 395,
+            "description": "Chicken wings cooked in chef special sauce"
+        },
+        {
+            "dish name": "MURG TIKKA MASALEDAR",
+            "type": "NON VEG",
+            "price": 395,
+            "description": "Marinated checken pieces in Indian masala and herbs and then served from tawa"
+        },
+        {
+            "dish name": "MURG HARYALI TIKKA",
+            "type": "NON VEG",
+            "price": 395,
+            "description": "Marinated boneless chicken pieces in green paste of mint,coriander,spinach and methi leaves"
+        },
+        {
+            "dish name": "MURG MALAI KALI MIRCH",
+            "type": "NON VEG",
+            "price": 395,
+            "description": "Tender chicken pieces deeped in black pepper flavoured-cashew gravy,makes"
+        },
+        {
+            "dish name": "KLM JUGALBANDI(WITHOUT PRAWNS)",
+            "type": "NON VEG",
+            "price": 495,
+            "description": "A combination of assorted non veg kebabs & tikkas"
+        },
+        {
+            "dish name": "CRISPY HONEY CHICKEN",
+            "type": "NON VEG",
+            "price": 375,
+            "description": "Juliennes of chicken fried,tossed in honey chilli sauce"
+        },
+        {
+            "dish name": "CHICKEN '65",
+            "type": "NON VEG",
+            "price": 375,
+            "description": "Chicken '65 is a spicy,red deep fried chicken chunks usually served in snacks"
+        },
+        {
+            "dish name": "GINGER GARLIC CHICKEN",
+            "type": "NON VEG",
+            "price": 375,
+            "description": "Marinated with ginger,garlic,soya sauce and honey"
+        },
+        {
+            "dish name": "CHICKEN SALT & PEPPER",
+            "type": "NON VEG",
+            "price": 375,
+            "description": "Chicken and cracked black pepper and pinch of salt"
+        },
+        {
+            "dish name": "DRY CHILLI CHICKEN ",
+            "type": "NON VEG",
+            "price": 375,
+            "description": "All time favourite "
+        },
+        {
+            "dish name": "FISH IN LEMON BUTTER SAUCE",
+            "type": "NON VEG",
+            "price": 375,
+            "description": "Fish cooked in lemon butter flavoured sauce"
+        },
+        {
+            "dish name": "CHILLI FISH",
+            "type": "NON VEG",
+            "price": 375,
+            "description": "Fish cubes tossed with onions and capsicum "
+        },
+        {
+            "dish name": "LEMON FISH",
+            "type": "NON VEG",
+            "price": 375,
+            "description": "Fish cooked in lemon crushed flavoured sauce"
+        },
+        {
+            "dish name": "FISH AMRITSARI",
+            "type": "NON VEG",
+            "price": 375,
+            "description": "Fish fried in amritsari style"
+        },
+        {
+            "dish name": "MAHI TIKKA AJWANI",
+            "type": "NON VEG",
+            "price": "325/475",
+            "description": "Chunks of fish marinated with flamed ajwain seeds,ginger and garlic and coriander yogurt barbecued"
+        },
+        {
+            "dish name": "TANDOORI MURG(HALF/FULL)",
+            "type": "NON VEG",
+            "price": 395,
+            "description": "Your all time favourite "
+        },
+        {
+            "dish name": "MURG TIKKA ACHARI",
+            "type": "NON VEG",
+            "price": 395,
+            "description": "Boneless chicken flavoured with achari masala"
+        },
+        {
+            "dish name": "MURG MALAI TIKKA",
+            "type": "NON VEG",
+            "price": 395,
+            "description": "Tender pieces of boneless chicken marinated with cheese and fresh coriander "
+        },
+        {
+            "dish name": "MURG AFGANI",
+            "type": "NON VEG",
+            "price": 395,
+            "description": "\"The king of kebabs\"-succulent chicken marinated in yogurt,garlic paste and garam masala"
+        },
+        {
+            "dish name": "MURG ZAFFRANI TIKKA",
+            "type": "NON VEG",
+            "price": 395,
+            "description": "Chicken marinated in yogurt and spices and then served in saffron cashew nut paste sauce"
+        },
+        {
+            "dish name": "MURG LAHSUNI TIKKA",
+            "type": "NON VEG",
+            "price": 395,
+            "description": "Chicken marinated in spices and then served in garlic turmeric cream sauce"
+        },
+        {
+            "dish name": "MURG KASTOORI TIKKA",
+            "type": "NON VEG",
+            "price": 395,
+            "description": "Cut the chicken in to breasts in to long strips.add salt,lime juice,red chilli powder,turmeric powder to the chicken strips and rub well in to the flesh"
+        },
+        {
+            "dish name": "MURG REHMI KEBAB",
+            "type": "NON VEG",
+            "price": 395,
+            "description": "Made the pieces of boneless chicken in juicy mixture of curd,cream,cashew nuts and spices and grilled in oven"
+        },
+        {
+            "dish name": "MURG PAGADI TIKKA",
+            "type": "NON VEG",
+            "price": 395,
+            "description": "Chicken cooked in herbs and yoghurt marinated "
+        },
+        {
+            "dish name": "SLICED LEMON CHICKEN ",
+            "type": "NON VEG",
+            "price": 375,
+            "description": "Brush the chicken breasts with olive and sprinkle them liberally with saly & pepper"
+        },
+        {
+            "dish name": "FISH ACHARI TIKKA",
+            "type": "NON VEG",
+            "price": 375,
+            "description": "Bite-sized pieces of fish filled are marinated in an assortment of spices"
+        },
+        {
+            "dish name": "FISH AJWANI TIKKA",
+            "type": "NON VEG",
+            "price": 375,
+            "description": "Fish cubes marinated with ajwain and finished in tanfoor"
+        },
+        {
+            "dish name": "MAHI PUDINA TIKKA",
+            "type": "NON VEG",
+            "price": 375,
+            "description": "Bone less fish pieces marinated in mint powder sauce and herbs and cooked in clay oven"
+        },
+        {
+            "dish name": "FRIED FISH WITH TARTAR SAUCE",
+            "type": "NON VEG",
+            "price": 375,
+            "description": "Fried fish made in conti herbs thime oregano,chilli flakes' served with tartar sauce"
+        },
+        {
+            "dish name": "FISH SALT & PEPPER",
+            "type": "NON VEG",
+            "price": 375,
+            "description": "Fish and add cracked black pepper and pinch of salt"
+        },
+        {
+            "dish name": "SZECHWAN FISH",
+            "type": "NON VEG",
+            "price": 375,
+            "description": "Strips of fish tossed with Szechwan sauce"
+        },
+        {
+            "dish name": "FISH SINGAPOREAN ",
+            "type": "NON VEG",
+            "price": 375,
+            "description": "Use economic frozen fish find coconut vinegar with marinate the fish"
+        },
+        {
+            "dish name": "FISH FINGER",
+            "type": "NON VEG",
+            "price": 375,
+            "description": "Finger cutting size dustred with bread crumbs and deep fried"
+        }
+    ],
+    "Main Course": [
+        {
+            "dish name": "PANEER LABABDAR",
+            "type": "VEG",
+            "price": 250,
+            "description": "Charcoal roasted cottage cheese cubes in a smooth tomato based gravy"
+        },
+        {
+            "dish name": "PANEER CHAMAN",
+            "type": "VEG",
+            "price": 250,
+            "description": "Cube size paneer cooked with fresh fenugreek"
+        },
+        {
+            "dish name": "KADAI PANEER",
+            "type": "VEG",
+            "price": 250,
+            "description": "An all time favourite "
+        },
+        {
+            "dish name": "PALAK PANEER",
+            "type": "VEG",
+            "price": 250,
+            "description": "Cottage cheese in Spanish gravy"
+        },
+        {
+            "dish name": "PANEER TIKKA BUTTER MASALA",
+            "type": "VEG",
+            "price": 250,
+            "description": "Barbecued chunks of cottage cheese finished in tomato gravy"
+        },
+        {
+            "dish name": "PANEER KHURCHAN",
+            "type": "VEG",
+            "price": 250,
+            "description": "Paneer,cooked in onion,aniseed and three types of bell pepper preparation "
+        },
+        {
+            "dish name": "PANEER DO PYAZA",
+            "type": "VEG",
+            "price": 250,
+            "description": "Paneer,cooked in semi dry gravy of double the amount of onions"
+        },
+        {
+            "dish name": "PANEER KALI MIRCH",
+            "type": "VEG",
+            "price": 250,
+            "description": "Paneer cubes with a flavour of black pepper"
+        },
+        {
+            "dish name": "PANEER TAKA TAK",
+            "type": "VEG",
+            "price": 250,
+            "description": "Paneer preparation with juliennes of onions and capsicum and kadai sauce flavoured with ketch up and mint"
+        },
+        {
+            "dish name": "PANEER BHURJEE",
+            "type": "VEG",
+            "price": 250,
+            "description": "Mashed paneer with onions tomato in indian spices"
+        },
+        {
+            "dish name": "PANEER PASANDA",
+            "type": "VEG",
+            "price": 250,
+            "description": "Paneer stuffed cooked in rick cashew gravy"
+        },
+        {
+            "dish name": "KOFTA BAGH-E-BAHAR",
+            "type": "VEG",
+            "price": 240,
+            "description": "Spinach dumpling stuffed with cottage cheese and served in spicy tomato gravy"
+        },
+        {
+            "dish name": "GOBHI ALOO ADRAKI",
+            "type": "VEG",
+            "price": 210,
+            "description": "Cauliflower and potato tossed gently with ginger and indian khada masala"
+        },
+        {
+            "dish name": "DIWANI HANDI",
+            "type": "VEG",
+            "price": 210,
+            "description": "A potpourri of garden fresh vegetables chanty steeped in spinach or cashew"
+        },
+        {
+            "dish name": "PALAK MAKAI MASALA",
+            "type": "VEG",
+            "price": 210,
+            "description": "Baby spinach cooked with American corn kemels "
+        },
+        {
+            "dish name": "MUSHROOM DO PYAZA",
+            "type": "VEG",
+            "price": 250,
+            "description": "Button mushroom cooked in a semi dry gravy of double the amount of onions"
+        },
+        {
+            "dish name": "MUTTER METHI MALAI",
+            "type": "VEG",
+            "price": 250,
+            "description": "The methi and peas blend in very well with rich gravy"
+        },
+        {
+            "dish name": "DUM ALOO KASHMIRI ",
+            "type": "VEG",
+            "price": 210,
+            "description": "A typical Kashmiri preparation of baby potatoes"
+        },
+        {
+            "dish name": "ALOO GOBHI ADRAKI",
+            "type": "VEG",
+            "price": 210,
+            "description": "Aloo and Gobhi cooked in strong ginger flavour"
+        },
+        {
+            "dish name": "JEERA ALOO",
+            "type": "VEG",
+            "price": 210,
+            "description": "Dry aloo cooked with curminseed"
+        },
+        {
+            "dish name": "ALOO GOBHI MASALA",
+            "type": "VEG",
+            "price": 210,
+            "description": null
+        },
+        {
+            "dish name": "VEGETABLE JALFREZI",
+            "type": "VEG",
+            "price": 210,
+            "description": "mix vegetables in onion and tomato gravy"
+        },
+        {
+            "dish name": "VEGETABLE MAKHANWALA",
+            "type": "VEG",
+            "price": 210,
+            "description": "Mushroom cooked in buttered tomato gravy"
+        },
+        {
+            "dish name": "KADAI MUSHROOM",
+            "type": "VEG",
+            "price": 250,
+            "description": "Mushroom cooked in kadai "
+        },
+        {
+            "dish name": "PALAK MUSHROOM",
+            "type": "VEG",
+            "price": 250,
+            "description": "Mushroom cooked with spinach gravy,vegetable cooked in spicy sweet sauce"
+        },
+        {
+            "dish name": "SUBZ NAVRATTAN KORMA",
+            "type": "VEG",
+            "price": 250,
+            "description": "Cube cutting of mix veg,butter cocktail fruit and cooked with coconut powder and finished with cream and butter"
+        },
+        {
+            "dish name": "MAKAI KHUMB MASALA",
+            "type": "VEG",
+            "price": 250,
+            "description": "Corn,mushroom cooked in onion and tomato gravy"
+        },
+        {
+            "dish name": "SHABNUM CURRY",
+            "type": "VEG",
+            "price": 210,
+            "description": "Mushroom with peas vegetable in onion gravy"
+        },
+        {
+            "dish name": "PINDI CHANA",
+            "type": "VEG",
+            "price": 210,
+            "description": "Chick peas cooked in punjabi whole spices"
+        },
+        {
+            "dish name": "DAL MAKHANI",
+            "type": "VEG",
+            "price": 240,
+            "description": "Black lentils simmered with spices over night finished with cream & butter"
+        },
+        {
+            "dish name": "DAL TADKE WALI",
+            "type": "VEG",
+            "price": 210,
+            "description": "Yellow lentil tempered with cumin asafoetida and hint of garlic"
+        },
+        {
+            "dish name": "DAL PALAK",
+            "type": "VEG",
+            "price": 210,
+            "description": "Black lentil cooked over night with tomato,fenugreek and butter "
+        },
+        {
+            "dish name": "DAL PANCHMEL",
+            "type": "VEG",
+            "price": 210,
+            "description": "Preparation of five varieties of mix dal"
+        },
+        {
+            "dish name": "RAJMA RASHILA",
+            "type": "VEG",
+            "price": 240,
+            "description": "Rajma cooked with butter and tomatoes yo creamy texture"
+        },
+        {
+            "dish name": "VEG LASAGNE",
+            "type": "VEG",
+            "price": 250,
+            "description": "Exotic minced vegetable layered with pasta sheets & baked"
+        },
+        {
+            "dish name": "VEGETABLE SWEET & SOUR SAUCE",
+            "type": "VEG",
+            "price": 210,
+            "description": "Vegetable bounded in sweet & sour sauce"
+        },
+        {
+            "dish name": "VEGETABLE MANCHURIAN GRAVY",
+            "type": "VEG",
+            "price": 210,
+            "description": null
+        },
+        {
+            "dish name": "VEGETABLE IN HOT GARLIC SAUCE",
+            "type": "VEG",
+            "price": 210,
+            "description": "Vegetable cooked in garlic sauce"
+        },
+        {
+            "dish name": "VEGETABLE IN THAI CURRY",
+            "type": "VEG",
+            "price": 240,
+            "description": "Green/Yello/Red"
+        },
+        {
+            "dish name": "MUSHROOM IN BUTTER GARLIC SAUCE",
+            "type": "VEG",
+            "price": 240,
+            "description": "Button mushroom tossed in butter garlic sauce"
+        },
+        {
+            "dish name": "KLM SPECIAL BUTTER CHICKEN",
+            "type": "NON VEG",
+            "price": 395,
+            "description": "Oven roasted white chicken cooked in green cardamom & tender chicken pieces with buttered tomato with honey flavoured cream"
+        },
+        {
+            "dish name": "KADAHI MURG",
+            "type": "NON VEG",
+            "price": 395,
+            "description": "Chicken pieces cooked in white whole spices along with tomato pepper gravy"
+        },
+        {
+            "dish name": "MURG TIKKA LABABDAR",
+            "type": "NON VEG",
+            "price": 395,
+            "description": "A delicacy made os charcoal roasted tikka served in tomato and onion gravy,finished with honey,butter and cream"
+        },
+        {
+            "dish name": "MURG KALI MIRCH",
+            "type": "NON VEG",
+            "price": 395,
+            "description": "Chicken cooked in smooth white gravy with freshly ground pepper corn"
+        },
+        {
+            "dish name": "MURG HANDI LAZIZ",
+            "type": "NON VEG",
+            "price": 395,
+            "description": "Chicken pieces cooked in onion and cashew gravy dressing with blanched cabbage"
+        },
+        {
+            "dish name": "DHANIYA MURG",
+            "type": "NON VEG",
+            "price": 395,
+            "description": "Chicken curry with a coriander"
+        },
+        {
+            "dish name": "MURG ANARKALI",
+            "type": "NON VEG",
+            "price": 395,
+            "description": "Chicken in onion tomato with pomegranate flavour"
+        },
+        {
+            "dish name": "METHI MURG MALAI",
+            "type": "NON VEG",
+            "price": 395,
+            "description": "Chicken cuts cooked in white gravy with fenugreek "
+        },
+        {
+            "dish name": "CHICKEN KORMA",
+            "type": "NON VEG",
+            "price": 395,
+            "description": "Chicken cooked in cashew gravy"
+        },
+        {
+            "dish name": "CHICKEN DO PYAZA",
+            "type": "NON VEG",
+            "price": 395,
+            "description": "Chicken cooked onion,tomato and capsicum"
+        },
+        {
+            "dish name": "CHILLI CHICKEN GRAVY",
+            "type": "NON VEG",
+            "price": 395,
+            "description": null
+        },
+        {
+            "dish name": "THAI CHICKEN",
+            "type": "NON VEG",
+            "price": 395,
+            "description": " (RED/YELLOW/GREEN SAUCE)Chicken simmered in thai curries with coconut milk"
+        },
+        {
+            "dish name": "MUTTON RARA",
+            "type": "NON VEG",
+            "price": 425,
+            "description": "Mutton cooked in indian spices and onion"
+        },
+        {
+            "dish name": "MUTTON SAAG WALA",
+            "type": "NON VEG",
+            "price": 425,
+            "description": "Curry cut mutton cooked with mustard and spinach"
+        },
+        {
+            "dish name": "KADHAI GOSHT",
+            "type": "NON VEG",
+            "price": 425,
+            "description": "Lamb chunks cooked with minced and onions"
+        }
+    ],
     "Rice": [
         {
             "dish name": "NIZAAMI TARKARI BIRYANI",
             "type": "VEG",
             "price": 190,
-            "description ": "The colourful combination of garden fresh vegetable and aromatic basmati cooked on dum"
+            "description": "The colourful combination of garden fresh vegetable and aromatic basmati cooked on dum"
         },
         {
             "dish name": "CHOICE OF PULAO",
             "type": "VEG",
             "price": 160,
-            "description ": "Subz/Green peas/Zeera"
+            "description": "Subz/Green peas/Zeera"
         },
         {
             "dish name": "SADA CHAWAL",
             "type": "VEG",
             "price": 140,
-            "description ": "Streamed Rice"
+            "description": "Streamed Rice"
         },
         {
             "dish name": "FRIED RICE",
             "type": "VEG",
             "price": 130,
-            "description ": "Sauté rice with chopped vegetables"
+            "description": "Saute rice with chopped vegetables"
         },
         {
             "dish name": "VEGETABLE GINGER FRIED RICE",
             "type": "VEG",
             "price": 190,
-            "description ": "Sauté ginger flavoured rice"
+            "description": "Saute ginger flavoured rice"
         },
         {
             "dish name": "ONION MINT PULAO",
             "type": "VEG",
             "price": 140,
-            "description ": null
+            "description": null
         },
         {
             "dish name": "KASHMIRI NAVRATAN PULAO",
             "type": "VEG",
             "price": 140,
-            "description ": null
+            "description": null
         },
         {
             "dish name": "HYDERABAD DUM BIRYANI",
             "type": "NON VEG",
-            "price": "260-290",
-            "description ": "Chicken/Mutton"
+            "price": "260/90",
+            "description": "Chicken/Mutton"
         },
         {
             "dish name": "FRIED RICE",
             "type": "NON VEG",
             "price": 240,
-            "description ": "Egg/Chicken"
+            "description": "Egg/Chicken"
         },
         {
             "dish name": "ONION MINT PULAO",
             "type": "NON VEG",
             "price": 260,
-            "description ": "Chicken"
+            "description": "Chicken"
         },
         {
             "dish name": "KASHMIRI NAVRATAN PULAO",
             "type": "NON VEG",
             "price": 260,
-            "description ": "Chicken"
+            "description": "Chicken"
         }
     ],
     "Dhai yoghurt": [
         {
             "dish name": "DAHI TADKE WALA/PLAIN",
             "type": "VEG",
-            "price": "120-90",
-            "description ": null
+            "price": "120/90",
+            "description": null
         },
         {
             "dish name": "CHOICE OF RAITA",
             "type": "VEG",
             "price": 120,
-            "description ": "Boondi/Pineapple/Cucumber/Pudina/Mix vegetable"
+            "description": "Boondi/Pineapple/Cucumber/Pudina/Mix vegetable"
         }
     ],
     "Noobles & Pasta": [
@@ -136,43 +890,49 @@
             "dish name": "TRIPLE SZECHWAN NOODLES",
             "type": "VEG",
             "price": 250,
-            "description ": "Combination of crispy noodles,rice and boiled noodles with sautéed vegetables and szechwan sauce "
+            "description": "Combination of crispy noodles,rice and boiled noodles with sautéed vegetables and szechwan sauce "
         },
         {
             "dish name": "VEGETABLE CHOPSUEY",
             "type": "VEG",
             "price": 200,
-            "description ": null
+            "description": null
         },
         {
             "dish name": "HAKKA NOODLES",
-            "type": "EGG/CHICKEN",
-            "price": "250-275",
-            "description ": null
+            "type": "EGG",
+            "price": 250,
+            "description": null
+        },
+        {
+            "dish name": "HAKKA NOODLES",
+            "type": "NON VEG",
+            "price": 275,
+            "description": null
         },
         {
             "dish name": "CHOICE OF PASTA",
             "type": "VEG",
-            "price": "250-275",
-            "description ": "Penne/spaghetti/Fuseli served with choice of sauce arrabbiata/Alfredo"
-        },
-        {
-            "dish name": "CHOICE OF PASTA",
-            "type": "NON VEG",
-            "price": "250-275",
-            "description ": "Penne/spaghetti/Fuseli served with choice of sauce arrabbiata/Alfredo"
+            "price": 250,
+            "description": "Penne/spaghetti/Fuseli served with choice of sauce arrabbiata/Alfredo"
         },
         {
             "dish name": "SZECHWAN NOODLES",
             "type": "VEG",
-            "price": "250-275",
-            "description ": "Spicy noodles sautéed with a combination of chicken"
+            "price": 250,
+            "description": "Spicy noodles sautéed with a combination of chicken"
+        },
+        {
+            "dish name": "CHOICE OF PASTA",
+            "type": "NON VEG",
+            "price": 275,
+            "description": "Penne/spaghetti/Fuseli served with choice of sauce arrabbiata/Alfredo"
         },
         {
             "dish name": "SZECHWAN NOODLES",
             "type": "NON VEG",
-            "price": "250-275",
-            "description ": "Spicy noodles sautéed with a combination of chicken"
+            "price": 275,
+            "description": "Spicy noodles sautéed with a combination of chicken"
         }
     ],
     "Roti & Bread": [
@@ -180,117 +940,117 @@
             "dish name": "TANDOORI ROTI",
             "type": "VEG",
             "price": 25,
-            "description ": null
+            "description": null
         },
         {
             "dish name": "PLAIN NAAN",
             "type": "VEG",
             "price": 35,
-            "description ": null
+            "description": null
         },
         {
             "dish name": "CHEESE GARLIC NAAN",
             "type": "VEG",
             "price": 70,
-            "description ": null
+            "description": null
         },
         {
             "dish name": "PUDINA/LACCHA PRANTHA",
             "type": "VEG",
             "price": 55,
-            "description ": null
+            "description": null
         },
         {
             "dish name": "BUTTER NAAN",
             "type": "VEG",
             "price": 50,
-            "description ": null
+            "description": null
         },
         {
             "dish name": "MISSI ROTI",
             "type": "VEG",
             "price": 40,
-            "description ": null
+            "description": null
         },
         {
             "dish name": "BHARWAN KULCHA",
             "type": "VEG",
             "price": 70,
-            "description ": "Onian/paneer/aloo"
+            "description": "Onian/paneer/aloo"
         },
         {
             "dish name": "MIRCHI PRANTHA",
             "type": "VEG",
             "price": 45,
-            "description ": "Lal/hari"
+            "description": "Lal/hari"
         },
         {
             "dish name": "ONION ROTI",
             "type": "VEG",
             "price": 30,
-            "description ": null
+            "description": null
         }
     ],
     "Beverages": [
         {
             "dish name": "BUTTER MILK(CHHAACH)",
-            "type": "VEG",
+            "type": null,
             "price": 60,
-            "description ": "Iced butter milk tempered with freshly broiled cumin,gamish with coriander and green chilli"
+            "description": "Iced butter milk tempered with freshly broiled cumin,gamish with coriander and green chilli"
         },
         {
             "dish name": "MINERAL WATER",
-            "type": "VEG",
+            "type": null,
             "price": 45,
-            "description ": null
+            "description": null
         },
         {
             "dish name": "SEASONAL FRESH FRUIT",
-            "type": "VEG",
+            "type": null,
             "price": 150,
-            "description ": null
+            "description": null
         },
         {
             "dish name": "CHOICE OF CANNED JUICE",
-            "type": "VEG",
+            "type": null,
             "price": 70,
-            "description ": null
+            "description": null
         },
         {
             "dish name": "COLD COFFEE",
-            "type": "VEG",
-            "price": "120-150",
-            "description ": "Plain/with ice cream"
+            "type": null,
+            "price": "120/150",
+            "description": "Plain/with ice cream"
         },
         {
             "dish name": "AERATED DRINKS",
-            "type": "VEG",
+            "type": null,
             "price": 45,
-            "description ": null
+            "description": null
         },
         {
             "dish name": "FRESH LIME SODA/WATER ",
-            "type": "VEG",
+            "type": null,
             "price": 60,
-            "description ": null
+            "description": null
         },
         {
             "dish name": "HOT COFFEE",
-            "type": "VEG",
+            "type": null,
             "price": 60,
-            "description ": null
+            "description": null
         },
         {
             "dish name": "HOT TEA",
-            "type": "VEG",
+            "type": null,
             "price": 50,
-            "description ": null
+            "description": null
         },
         {
             "dish name": "MILK SHAKES",
-            "type": "VEG",
+            "type": null,
             "price": 150,
-            "description ": "Vanilla,chocolate,strawberry,banana"
+            "description": "Vanilla,chocolate,strawberry,banana"
         }
     ],
     "Dessert": [
@@ -315,7 +1075,7 @@
         {
             "dish name": "TODAY'S SPECIAL",
             "type": "VEG",
-            "price": 150,
+            "price": 100,
             "description": null
         }
     ],

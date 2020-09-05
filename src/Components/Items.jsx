@@ -31,8 +31,10 @@ function Items(props) {
               {checkType()}
               {props.item[heading.dishName]}
             </Card.Title>
-            <Card.Text className="price">
+            <Card.Text className="description">
               {props.item[heading.description]}
+            </Card.Text>
+            <Card.Text className="price">
               {"₹"+props.item[heading.price]}
             </Card.Text>
           </Card.Body>
@@ -40,7 +42,7 @@ function Items(props) {
         <div className="div2">
           <div className="divButton">
             <span className="spanSign" onClick={()=>props.decreaseCounter(props.item,props.index)} hidden={props.counter===undefined}>-</span>
-            <span className="spanSign" style={{paddingLeft:"6px",paddingRight:"6px"}}>{props.counter!==undefined?props.counter:"ADD"}</span>
+            <span className="spanSign" style={{paddingLeft:"6px",paddingRight:"6px"}}>{props.counter!==undefined?props.counter[0]:"ADD"}</span>
             <span className="spanSign" onClick={()=>props.increaseCounter(props.item,props.index)}>+</span>
           </div>
         </div>

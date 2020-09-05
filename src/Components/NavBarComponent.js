@@ -14,7 +14,6 @@ import { useLocation } from 'react-router-dom'
 function NavBarComponent(props) {
   let location = useLocation()
   React.useEffect(()=>{
-    console.log(location);
   },[location.pathname]);
 
   let header=()=>{
