@@ -18,8 +18,10 @@ function NavBarComponent(props) {
 
   let header=()=>{
     switch(location.pathname) {
+      case "/":
+      return "KLM";
       case "/klm-menu":
-      return "KLM-MENU";
+      return "KLM";
       case "/search":
       return "Search";
       case "/cart":
