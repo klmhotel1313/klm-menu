@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 
-excel_data_df = pd.read_excel('Menu.xlsx',sheet_name=None);
+excel_data_df = pd.read_excel('src/MenuData/Menu.xlsx',sheet_name=None);
 menu_data={}
 for i in excel_data_df:
 	json_data=excel_data_df[i].to_json(orient='records')
