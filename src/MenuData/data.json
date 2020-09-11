@@ -1597,70 +1597,52 @@
     ],
     "Indian Beer": [
         {
-            "unnamed: 0": null,
-            "unnamed: 1": null,
-            "unnamed: 2": null,
-            "unnamed: 3": null
+            "dish name": "KINGFISHER ULTRA650ML",
+            "type": "VEG",
+            "price": 350,
+            "description": null
         },
         {
-            "unnamed: 0": null,
-            "unnamed: 1": null,
-            "unnamed: 2": null,
-            "unnamed: 3": null
+            "dish name": "CARLSBURG LIGHT/STRONG 650ML",
+            "type": "VEG",
+            "price": 270,
+            "description": null
         },
         {
-            "unnamed: 0": "Dish name",
-            "unnamed: 1": "Type",
-            "unnamed: 2": "Price",
-            "unnamed: 3": "Description"
+            "dish name": "TUBORG LIGHT/STRONG 650ML",
+            "type": "VEG",
+            "price": 230,
+            "description": null
         },
         {
-            "unnamed: 0": "KINGFISHER ULTRA650ML",
-            "unnamed: 1": "VEG",
-            "unnamed: 2": 350,
-            "unnamed: 3": null
+            "dish name": "KOTSBURG 650ML",
+            "type": "VEG",
+            "price": 250,
+            "description": null
         },
         {
-            "unnamed: 0": "CARLSBURG LIGHT/STRONG 650ML",
-            "unnamed: 1": "VEG",
-            "unnamed: 2": 270,
-            "unnamed: 3": null
+            "dish name": "KINGFISHER LIGHT/STRONG 650ML",
+            "type": "VEG",
+            "price": 230,
+            "description": null
         },
         {
-            "unnamed: 0": "TUBORG LIGHT.STRONG 650ML",
-            "unnamed: 1": "VEG",
-            "unnamed: 2": 230,
-            "unnamed: 3": null
+            "dish name": "HAYWARDS 5000",
+            "type": "VEG",
+            "price": 230,
+            "description": null
         },
         {
-            "unnamed: 0": "KOTSBURG 650ML",
-            "unnamed: 1": "VEG",
-            "unnamed: 2": 250,
-            "unnamed: 3": null
+            "dish name": "TUBURG 330ML",
+            "type": "VEG",
+            "price": 140,
+            "description": null
         },
         {
-            "unnamed: 0": "KINGFISHER LIGHT/STRONG 650ML",
-            "unnamed: 1": "VEG",
-            "unnamed: 2": 230,
-            "unnamed: 3": null
-        },
-        {
-            "unnamed: 0": "HAYWARDS 5000",
-            "unnamed: 1": "VEG",
-            "unnamed: 2": 230,
-            "unnamed: 3": null
-        },
-        {
-            "unnamed: 0": "TUBURG 330ML",
-            "unnamed: 1": "VEG",
-            "unnamed: 2": 140,
-            "unnamed: 3": null
-        },
-        {
-            "unnamed: 0": "KINGFISHER STRONG 330ML",
-            "unnamed: 1": "VEG",
-            "unnamed: 2": 140,
-            "unnamed: 3": null
+            "dish name": "KINGFISHER STRONG 330ML",
+            "type": "VEG",
+            "price": 140,
+            "description": null
         }
     ],
     "Ready To Drink": [
