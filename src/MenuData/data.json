@@ -49,6 +49,82 @@
             "description": null
         }
     ],
+    "Salad": [
+        {
+            "dish name": "GARDEN FRESH SALAD",
+            "type": "VEG",
+            "price": 110,
+            "description": null
+        },
+        {
+            "dish name": "ALOO CHANA CHAT",
+            "type": "VEG",
+            "price": 130,
+            "description": null
+        },
+        {
+            "dish name": "CHATPATA PANEER TIKKA SALAD",
+            "type": "VEG",
+            "price": 140,
+            "description": null
+        },
+        {
+            "dish name": "KIM CHI SALAD",
+            "type": "VEG",
+            "price": 140,
+            "description": null
+        },
+        {
+            "dish name": "RUSSIAN SALAD",
+            "type": "VEG",
+            "price": 140,
+            "description": null
+        },
+        {
+            "dish name": "PEANUT SALAD",
+            "type": "VEG",
+            "price": 130,
+            "description": null
+        },
+        {
+            "dish name": "MASALA PAPAD",
+            "type": "VEG",
+            "price": 75,
+            "description": null
+        },
+        {
+            "dish name": "CEASAR SALAD",
+            "type": "VEG",
+            "price": 140,
+            "description": null
+        },
+        {
+            "dish name": "FRUIT SALAD",
+            "type": "VEG",
+            "price": 100,
+            "description": null
+        },
+        {
+            "dish name": "MURG TIKKA SALAD",
+            "type": "VEG",
+            "price": 220,
+            "description": null
+        }
+    ],
+    "Dhai yoghurt": [
+        {
+            "dish name": "DAHI TADKE WALA/PLAIN",
+            "type": "VEG",
+            "price": "120/90",
+            "description": null
+        },
+        {
+            "dish name": "CHOICE OF RAITA",
+            "type": "VEG",
+            "price": 120,
+            "description": "Boondi/Pineapple/Cucumber/Pudina/Mix vegetable"
+        }
+    ],
     "Kababs & starter": [
         {
             "dish name": "TANDOORI PANEER TIKKA",
@@ -871,70 +947,6 @@
             "description": "Chicken"
         }
     ],
-    "Dhai yoghurt": [
-        {
-            "dish name": "DAHI TADKE WALA/PLAIN",
-            "type": "VEG",
-            "price": "120/90",
-            "description": null
-        },
-        {
-            "dish name": "CHOICE OF RAITA",
-            "type": "VEG",
-            "price": 120,
-            "description": "Boondi/Pineapple/Cucumber/Pudina/Mix vegetable"
-        }
-    ],
-    "Noobles & Pasta": [
-        {
-            "dish name": "TRIPLE SZECHWAN NOODLES",
-            "type": "VEG",
-            "price": 250,
-            "description": "Combination of crispy noodles,rice and boiled noodles with sautéed vegetables and szechwan sauce "
-        },
-        {
-            "dish name": "VEGETABLE CHOPSUEY",
-            "type": "VEG",
-            "price": 200,
-            "description": null
-        },
-        {
-            "dish name": "HAKKA NOODLES",
-            "type": "EGG",
-            "price": 250,
-            "description": null
-        },
-        {
-            "dish name": "HAKKA NOODLES",
-            "type": "NON VEG",
-            "price": 275,
-            "description": null
-        },
-        {
-            "dish name": "CHOICE OF PASTA",
-            "type": "VEG",
-            "price": 250,
-            "description": "Penne/spaghetti/Fuseli served with choice of sauce arrabbiata/Alfredo"
-        },
-        {
-            "dish name": "SZECHWAN NOODLES",
-            "type": "VEG",
-            "price": 250,
-            "description": "Spicy noodles sautéed with a combination of chicken"
-        },
-        {
-            "dish name": "CHOICE OF PASTA",
-            "type": "NON VEG",
-            "price": 275,
-            "description": "Penne/spaghetti/Fuseli served with choice of sauce arrabbiata/Alfredo"
-        },
-        {
-            "dish name": "SZECHWAN NOODLES",
-            "type": "NON VEG",
-            "price": 275,
-            "description": "Spicy noodles sautéed with a combination of chicken"
-        }
-    ],
     "Roti & Bread": [
         {
             "dish name": "TANDOORI ROTI",
@@ -989,6 +1001,56 @@
             "type": "VEG",
             "price": 30,
             "description": null
+        }
+    ],
+    "Noodles & Pasta": [
+        {
+            "dish name": "TRIPLE SZECHWAN NOODLES",
+            "type": "VEG",
+            "price": 250,
+            "description": "Combination of crispy noodles,rice and boiled noodles with sautéed vegetables and szechwan sauce "
+        },
+        {
+            "dish name": "VEGETABLE CHOPSUEY",
+            "type": "VEG",
+            "price": 200,
+            "description": null
+        },
+        {
+            "dish name": "HAKKA NOODLES",
+            "type": "EGG",
+            "price": 250,
+            "description": null
+        },
+        {
+            "dish name": "HAKKA NOODLES",
+            "type": "NON VEG",
+            "price": 275,
+            "description": null
+        },
+        {
+            "dish name": "CHOICE OF PASTA",
+            "type": "VEG",
+            "price": 250,
+            "description": "Penne/spaghetti/Fuseli served with choice of sauce arrabbiata/Alfredo"
+        },
+        {
+            "dish name": "SZECHWAN NOODLES",
+            "type": "VEG",
+            "price": 250,
+            "description": "Spicy noodles sautéed with a combination of chicken"
+        },
+        {
+            "dish name": "CHOICE OF PASTA",
+            "type": "NON VEG",
+            "price": 275,
+            "description": "Penne/spaghetti/Fuseli served with choice of sauce arrabbiata/Alfredo"
+        },
+        {
+            "dish name": "SZECHWAN NOODLES",
+            "type": "NON VEG",
+            "price": 275,
+            "description": "Spicy noodles sautéed with a combination of chicken"
         }
     ],
     "Beverages": [
@@ -1079,65 +1141,583 @@
             "description": null
         }
     ],
-    "Salad": [
+    "Mocktails": [
         {
-            "dish name": "GARDEN FRESH SALAD",
+            "dish name": "TOM & JERRY",
             "type": "VEG",
-            "price": 110,
+            "price": 225,
+            "description": "Litchi Crush, P/A Juice, Ice Cream"
+        },
+        {
+            "dish name": "MONKEY JUMP",
+            "type": "VEG",
+            "price": 225,
+            "description": "Mango Juice, P/A Juice, Kaish, Ice Cream"
+        },
+        {
+            "dish name": "MID NIGHT BEAUTY",
+            "type": "VEG",
+            "price": 225,
+            "description": "Kiwi Crush, Litchi Crush, Top Up, Coke"
+        },
+        {
+            "dish name": "BAR MAN SPECIAL",
+            "type": "VEG",
+            "price": 225,
+            "description": "Choice Of Bar Man"
+        },
+        {
+            "dish name": "BLUE LAGOON",
+            "type": "VEG",
+            "price": 225,
+            "description": "Limca, Blue Craco, Lime Juice, Ice Cubes"
+        },
+        {
+            "dish name": "PURPLE RAIN",
+            "type": "VEG",
+            "price": 225,
+            "description": "Green Mint Syrup, Litchi Juice, Graindine Syrup, Sprite"
+        },
+        {
+            "dish name": "VIRGIN MOJITO",
+            "type": "VEG",
+            "price": 225,
+            "description": "Mint Syrup, Lemon, Sprite, Ice Crush, Mint Leaves"
+        },
+        {
+            "dish name": "PINA COLADO",
+            "type": "VEG",
+            "price": 225,
+            "description": "P/A Juice,Coconut Syrup, Coconut"
+        },
+        {
+            "dish name": "FRUIT PUNCH",
+            "type": "VEG",
+            "price": 225,
+            "description": "Mix Juice, Frsh Fruit, Fresh Cream, Grenadine Syrup"
+        },
+        {
+            "dish name": "ORANGE BLOSSAM",
+            "type": "VEG",
+            "price": 225,
+            "description": "Orange Juice, Lime Juice,Little Bit Salt, Fresh Cream"
+        }
+    ],
+    "Cocktails": [
+        {
+            "dish name": "SEX ON THE BEACH",
+            "type": "VEG",
+            "price": 350,
+            "description": "Orange Juice,Triple Sec,Vodka,Grenadine Syrup"
+        },
+        {
+            "dish name": "TEQUILLA SUN RICE",
+            "type": "VEG",
+            "price": 350,
+            "description": "Orange Juice,Tequila,Grenadine Syrup"
+        },
+        {
+            "dish name": "TOM COLLINS",
+            "type": "VEG",
+            "price": 350,
+            "description": "Gin, Lime Juice, Grenadine, Sugar Syrup"
+        },
+        {
+            "dish name": "PINA COLADA",
+            "type": "VEG",
+            "price": 350,
+            "description": "P/A Juice, Coconut Cream, Bacardi White Rum"
+        },
+        {
+            "dish name": "SCRUE DRIVER",
+            "type": "VEG",
+            "price": 350,
+            "description": "Orange Juice,Vodka ,Lime Juice, Grenadine"
+        },
+        {
+            "dish name": "WHISKY SOUR",
+            "type": "VEG",
+            "price": 350,
+            "description": "Whiskey,Litchi Juice, Sugar Syrup, White Egg"
+        },
+        {
+            "dish name": "GIMLET",
+            "type": "VEG",
+            "price": 350,
+            "description": "Gin, Tonic Water, Ice Cubes, Lime"
+        },
+        {
+            "dish name": "GIN & TONIC",
+            "type": "VEG",
+            "price": 350,
+            "description": "Gin, Tonic Water, Ice Cubes, Lime"
+        },
+        {
+            "dish name": "MOZITO",
+            "type": "VEG",
+            "price": 350,
+            "description": "Mint syrup, Lemon, Soda, White Rum, Mint Leaves"
+        },
+        {
+            "dish name": "CUBA LIBRE",
+            "type": "VEG",
+            "price": 350,
+            "description": "Coke, Lime Juice, White Rum"
+        },
+        {
+            "dish name": "MARGRITA",
+            "type": "VEG",
+            "price": 350,
+            "description": "Tequila, Lime Juice, Ice Crush"
+        }
+    ],
+    "Long Cocktails": [
+        {
+            "dish name": "BULL FROG",
+            "type": "VEG",
+            "price": 575,
+            "description": "Gin,WhiteRum,Vodka,Tequila,Red Bull"
+        },
+        {
+            "dish name": "LIIT",
+            "type": "VEG",
+            "price": 575,
+            "description": "Gin,White Rum,Vodka,Tequila,Triple Spec,Cokie,Lime"
+        }
+    ],
+    "Scotch Whiskey": [
+        {
+            "dish name": "JOHNNIE WALKER DOUBLE BLACK",
+            "type": "VEG",
+            "price": "600/1050",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "GLENFIDDICH 12 Y",
+            "type": "VEG",
+            "price": "600/1050",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "TALISKER",
+            "type": "VEG",
+            "price": "600/1050",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "GLENMORANGIE 12Y",
+            "type": "VEG",
+            "price": "600/1050",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "CHIVAS REGAL 12 Y",
+            "type": "VEG",
+            "price": "500/800",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "JACK DANIELS",
+            "type": "VEG",
+            "price": "475/800",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "CHIVAS REGAL 8 Y",
+            "type": "VEG",
+            "price": "375/700",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "JONNIE WALKER BLACK LABEL",
+            "type": "VEG",
+            "price": "375/700",
+            "description": "30ML/60ML"
+        }
+    ],
+    "Regular Whiskey": [
+        {
+            "dish name": "BLACK DOG 12Y",
+            "type": "VEG",
+            "price": "250/450",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "TEACHER 50",
+            "type": "VEG",
+            "price": "250/451",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "JAMESSON",
+            "type": "VEG",
+            "price": "250/452",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "100 PIPER 12Y",
+            "type": "VEG",
+            "price": "250/453",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "JONIE WALKER RED LABEL",
+            "type": "VEG",
+            "price": "250/454",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "BALLENTINES",
+            "type": "VEG",
+            "price": "250/455",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "VAT 69",
+            "type": "VEG",
+            "price": "250/456",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "BLACK & WHITE",
+            "type": "VEG",
+            "price": "250/457",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "100 PIPER REGULAR",
+            "type": "VEG",
+            "price": "250/458",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "JIM BIM",
+            "type": "VEG",
+            "price": "250/459",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "VBLACK DOGGY 8 Y",
+            "type": "VEG",
+            "price": "250/460",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "TEACHER H/C",
+            "type": "VEG",
+            "price": "250/461",
+            "description": "30ML/60ML"
+        }
+    ],
+    "Indian Whisky": [
+        {
+            "dish name": "BLENDER PRIDE RESERVE",
+            "type": "VEG",
+            "price": "150/250",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "BLENDER PRIDE REGULAR",
+            "type": "VEG",
+            "price": "125/225",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "ANTIQUITY BLUE",
+            "type": "VEG",
+            "price": "125/225",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "SIGNATURE",
+            "type": "VEG",
+            "price": "125/225",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "PETER SCOTT",
+            "type": "VEG",
+            "price": "125/225",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "ROCK FORD",
+            "type": "VEG",
+            "price": "125/225",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "RED KNIGHT",
+            "type": "VEG",
+            "price": "125/225",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "ROYAL STAG",
+            "type": "VEG",
+            "price": "95/150",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "ROYAL CHALLENGE",
+            "type": "VEG",
+            "price": "95/150",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "MC DOWKKS NO1",
+            "type": "VEG",
+            "price": "95/135",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "GREEN LABEL",
+            "type": "VEG",
+            "price": "85/135",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "IMPERIAL BLUE",
+            "type": "VEG",
+            "price": "85/135",
+            "description": "30ML/60ML"
+        }
+    ],
+    "Vodka": [
+        {
+            "dish name": "ABSOLUTE",
+            "type": "VEG",
+            "price": "220/400",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "SMIRNOFF VODKA",
+            "type": "VEG",
+            "price": "100/175",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "MAGIC MOMENT",
+            "type": "VEG",
+            "price": "85/140",
+            "description": "30ML/60ML"
+        }
+    ],
+    "Tequila": [
+        {
+            "dish name": "CAMINO",
+            "type": "VEG",
+            "price": "200/350",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "SUAZA TEQUILLA",
+            "type": "VEG",
+            "price": "200/350",
+            "description": "30ML/60ML"
+        }
+    ],
+    "Gin": [
+        {
+            "dish name": "BOMBAY SAPHIRE",
+            "type": "VEG",
+            "price": "200/375",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "BLUE RIBAND",
+            "type": "VEG",
+            "price": "85/135",
+            "description": "30ML/60ML"
+        }
+    ],
+    "Rum": [
+        {
+            "dish name": "BACARDI WHITE RUM",
+            "type": "VEG",
+            "price": "110/200",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "OLD MONK",
+            "type": "VEG",
+            "price": "100/175",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "IMPERIAL RED RUM",
+            "type": "VEG",
+            "price": "100/175",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "MC DOWELLS XXX RUM",
+            "type": "VEG",
+            "price": "65/100",
+            "description": "30ML/60ML"
+        },
+        {
+            "dish name": "CAPTIAN MORGAN",
+            "type": "VEG",
+            "price": "100/175",
+            "description": "30ML/60ML"
+        }
+    ],
+    "Imported Beer": [
+        {
+            "dish name": "CRONA 355ML",
+            "type": "VEG",
+            "price": 450,
             "description": null
         },
         {
-            "dish name": "ALOO CHANA CHAT",
+            "dish name": "HENIKEN 650ML",
             "type": "VEG",
-            "price": 130,
+            "price": 450,
             "description": null
         },
         {
-            "dish name": "CHATPATA PANEER TIKKA SALAD",
+            "dish name": "BUDWISE 650ML",
             "type": "VEG",
-            "price": 140,
+            "price": 450,
             "description": null
         },
         {
-            "dish name": "KIM CHI SALAD",
+            "dish name": "BIRA 650ML",
             "type": "VEG",
-            "price": 140,
+            "price": 450,
             "description": null
         },
         {
-            "dish name": "RUSSIAN SALAD",
+            "dish name": "BIRA 330ML",
             "type": "VEG",
-            "price": 140,
+            "price": 300,
+            "description": null
+        }
+    ],
+    "Indian Beer": [
+        {
+            "unnamed: 0": null,
+            "unnamed: 1": null,
+            "unnamed: 2": null,
+            "unnamed: 3": null
+        },
+        {
+            "unnamed: 0": null,
+            "unnamed: 1": null,
+            "unnamed: 2": null,
+            "unnamed: 3": null
+        },
+        {
+            "unnamed: 0": "Dish name",
+            "unnamed: 1": "Type",
+            "unnamed: 2": "Price",
+            "unnamed: 3": "Description"
+        },
+        {
+            "unnamed: 0": "KINGFISHER ULTRA650ML",
+            "unnamed: 1": "VEG",
+            "unnamed: 2": 350,
+            "unnamed: 3": null
+        },
+        {
+            "unnamed: 0": "CARLSBURG LIGHT/STRONG 650ML",
+            "unnamed: 1": "VEG",
+            "unnamed: 2": 270,
+            "unnamed: 3": null
+        },
+        {
+            "unnamed: 0": "TUBORG LIGHT.STRONG 650ML",
+            "unnamed: 1": "VEG",
+            "unnamed: 2": 230,
+            "unnamed: 3": null
+        },
+        {
+            "unnamed: 0": "KOTSBURG 650ML",
+            "unnamed: 1": "VEG",
+            "unnamed: 2": 250,
+            "unnamed: 3": null
+        },
+        {
+            "unnamed: 0": "KINGFISHER LIGHT/STRONG 650ML",
+            "unnamed: 1": "VEG",
+            "unnamed: 2": 230,
+            "unnamed: 3": null
+        },
+        {
+            "unnamed: 0": "HAYWARDS 5000",
+            "unnamed: 1": "VEG",
+            "unnamed: 2": 230,
+            "unnamed: 3": null
+        },
+        {
+            "unnamed: 0": "TUBURG 330ML",
+            "unnamed: 1": "VEG",
+            "unnamed: 2": 140,
+            "unnamed: 3": null
+        },
+        {
+            "unnamed: 0": "KINGFISHER STRONG 330ML",
+            "unnamed: 1": "VEG",
+            "unnamed: 2": 140,
+            "unnamed: 3": null
+        }
+    ],
+    "Ready To Drink": [
+        {
+            "dish name": "BACARDI BREEZER ALL FLAVOUR 330 ML",
+            "type": "VEG",
+            "price": 150,
+            "description": null
+        }
+    ],
+    "Aerated Drink": [
+        {
+            "dish name": "THUMSUP/COKE/FANTA/LIMCA",
+            "type": "VEG",
+            "price": 45,
             "description": null
         },
         {
-            "dish name": "PEANUT SALAD",
-            "type": "VEG",
-            "price": 130,
-            "description": null
-        },
-        {
-            "dish name": "MASALA PAPAD",
-            "type": "VEG",
-            "price": 75,
-            "description": null
-        },
-        {
-            "dish name": "CEASAR SALAD",
-            "type": "VEG",
-            "price": 140,
-            "description": null
-        },
-        {
-            "dish name": "FRUIT SALAD",
+            "dish name": "DIET COKE",
             "type": "VEG",
             "price": 100,
             "description": null
         },
         {
-            "dish name": "MURG TIKKA SALAD",
+            "dish name": "TONIC WATER",
             "type": "VEG",
-            "price": 220,
+            "price": 110,
+            "description": null
+        },
+        {
+            "dish name": "CANNED JUICE",
+            "type": "VEG",
+            "price": 70,
+            "description": null
+        },
+        {
+            "dish name": "MINERAL WATER",
+            "type": "VEG",
+            "price": 50,
+            "description": null
+        },
+        {
+            "dish name": "SODA PLAIN 600ML",
+            "type": "VEG",
+            "price": 40,
+            "description": null
+        },
+        {
+            "dish name": "RED BULL",
+            "type": "VEG",
+            "price": 200,
+            "description": null
+        },
+        {
+            "dish name": "FRESH LIME SODA",
+            "type": "VEG",
+            "price": 55,
             "description": null
         }
     ]
